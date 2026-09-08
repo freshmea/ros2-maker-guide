@@ -1,0 +1,14 @@
+ROS2 Maker Guide
+Copyright 2026 choi su gil.
+
+This distribution contains selected educational code and executable examples
+from the book ROS2 입문. Existing source notices are retained.
+
+Public companion edition, 2026-09-08:
+- Packaged complete book examples as maker_basic and a reduced tf2_basic.
+- Added runtime dependency declarations to gong_basic/package.xml.
+- Combined the chapter 23 model with the chapter 24 revolute joint example.
+- Combined the chapter 25 Xacro property and macro examples.
+- Added reader documentation and replaced the wall_follow_lab internal guide.
+
+The separately published book text and artwork are not included.

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"
+       name="reusable_robot">
+
+  <!-- 반복되는 치수와 색상을 한곳에서 관리한다. -->
+  <xacro:property name="base_radius" value="0.15"/>
+  <xacro:property name="base_height" value="0.10"/>
+  <xacro:property name="arm_length" value="0.40"/>
+  <xacro:property name="arm_width" value="0.08"/>
+
+  <material name="blue">
+    <color rgba="0.1 0.4 0.8 1.0"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${base_radius}"
+                  length="${base_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <xacro:macro name="simple_arm" params="prefix side">
+    <link name="${prefix}_arm_link">
+      <visual>
+        <origin xyz="0 0 ${arm_length / 2.0}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${arm_width} ${arm_width} ${arm_length}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 ${arm_length / 2.0}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${arm_width} ${arm_width} ${arm_length}"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 ${arm_length / 2.0}" rpy="0 0 0"/>
+        <mass value="1.0"/>
+        <inertia ixx="0.014" ixy="0" ixz="0"
+                 iyy="0.014" iyz="0" izz="0.001"/>
+      </inertial>
+    </link>
+
+    <joint name="${prefix}_arm_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="${prefix}_arm_link"/>
+      <origin xyz="0 ${side * 0.12} ${base_height / 2.0}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.57" upper="1.57"
+             effort="5.0" velocity="1.0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:simple_arm prefix="left" side="1"/>
+  <xacro:simple_arm prefix="right" side="-1"/>
+
+</robot>

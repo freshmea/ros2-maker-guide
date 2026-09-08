@@ -1,0 +1,4 @@
+/periodic_status:
+  ros__parameters:
+    message: "YAML에서 적용한 상태"
+    publish_period: 2.0

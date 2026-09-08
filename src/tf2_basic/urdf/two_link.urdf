@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<robot name="two_link_robot">
+  <material name="blue">
+    <color rgba="0.1 0.4 0.8 1.0"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.15" length="0.10"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.15" length="0.10"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.0"/>
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0"
+               iyy="0.02" iyz="0.0" izz="0.02"/>
+    </inertial>
+  </link>
+
+  <link name="arm_link">
+    <visual>
+      <!-- Box 중심을 관절 위쪽으로 이동해 막대가 세워지게 한다. -->
+      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.08 0.40"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.08 0.40"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.014" ixy="0.0" ixz="0.0"
+               iyy="0.014" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_arm" type="revolute">
+  <parent link="base_link"/>
+  <child link="arm_link"/>
+  <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit lower="-1.57" upper="1.57"
+         effort="5.0" velocity="1.0"/>
+</joint>
+</robot>
