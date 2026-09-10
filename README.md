@@ -1,53 +1,120 @@
-# ROS2 Maker Guide
+# ROS2 Maker
 
-**『ROS2 입문』**의 독자용 실습 코드 저장소입니다.
+**Ubuntu 24.04 + ROS2 Jazzy + Gazebo Harmonic**
 
-- 부제: Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
-- 저자: 최수길 · 출판사: 마담
-- 기준 환경: Ubuntu 24.04 / ROS2 Jazzy / Gazebo Harmonic (Windows에서는 WSL2)
-- 책 정보와 목차: [BOOK.md](BOOK.md)
-- 장별 코드와 실행 안내: [docs/chapters.md](docs/chapters.md)
-- 검증 결과와 한계: [docs/validation.md](docs/validation.md)
+로봇 프로그래밍, 어디서 시작할지 막막했다면 먼저 읽고 실행해 보세요.
+**『ROS2 입문』의 1~3장 무료 컬러 PDF와 실제 실습 코드**를 제공합니다.
+환경 설치에서 Python Node, 통신, 로봇 모델링, 시뮬레이션으로 이어지는 책의 체험판입니다.
 
-## 빠른 시작
+**[📖 1~3장 무료 SAMPLE PDF](samples/ros2-maker-guide-ch01-03-sample.pdf)** ·
+[🚀 30분 Quick Start](#quick-start) · [🤖 직접 실행하는 데모](#demo)
 
-책 2~3장에 따라 Ubuntu와 ROS2 Jazzy를 먼저 설치합니다. 아래는 Ubuntu Bash 명령입니다.
-`~/ros_ws`가 아직 없는 새 실습 환경을 기준으로 합니다.
+[📘 책 소개](BOOK.md) · [💻 Sample Code](docs/chapters.md) ·
+[📚 전체 목차](BOOK.md#목차) · [🛒 전자책 구매 안내](BOOK.md#ebook) · [📕 종이책 구매 안내](BOOK.md#print)
+
+> **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
+>
+> 최수길 지음 · 마담
+
+## 먼저 3장까지 읽어 보세요
+
+| 무료 공개 | 읽고 나면 할 수 있는 일 |
+|---|---|
+| 1장. ROS2로 무엇을 만들 수 있는가 | Node와 통신이 로봇 시스템을 구성하는 방식 설명하기 |
+| 2장. Windows·WSL2·Ubuntu의 관계 | 어느 터미널에서 작업할지 판단하고 개발 환경 구분하기 |
+| 3장. Ubuntu 24.04와 ROS2 Jazzy 설치 | 설치 후 Talker와 Listener의 실제 통신 확인하기 |
+
+**[PDF 바로 읽기](samples/ros2-maker-guide-ch01-03-sample.pdf)** ·
+[PDF 다운로드](https://github.com/freshmea/ros2-maker-guide/raw/refs/heads/main/samples/ros2-maker-guide-ch01-03-sample.pdf) ·
+[샘플 범위와 이용 안내](samples/README.md)
+
+본문 57쪽에 샘플 안내 2쪽을 더한 총 59쪽의 컬러 PDF, 약 6.1 MiB입니다.
+장별 학습 목표, 실행 명령, 확인 방법, 문제 해결, 참고 자료까지 읽을 수 있습니다.
+PDF가 GitHub에서 바로 열리지 않으면 다운로드 링크를 사용하세요.
+
+<a id="quick-start"></a>
+
+## 30분 Quick Start
+
+**목표: 두 Python Node를 실행하고 `/message`로 오가는 메시지를 확인합니다.**
+Ubuntu 24.04와 ROS2 Jazzy가 설치된 환경에서 약 30분을 목표로 하는 체험입니다.
+OS·ROS2 설치 시간은 포함하지 않으며, 다운로드와 PC 성능에 따라 더 걸릴 수 있습니다.
+처음이라면 무료 PDF 2~3장부터 진행하세요. 이 체험은 책 9~10장의 완성 코드를 먼저 실행합니다.
+
+### 1. 코드와 도구 준비 · 약 5분
+
+아래는 Ubuntu Bash 명령이며, `~/ros_ws`가 아직 없는 새 실습 환경을 기준으로 합니다.
+기존 작업 공간이 있다면 다른 경로를 사용하고 이후 명령의 경로도 함께 변경하세요.
 
 ```bash
-git clone https://github.com/freshmea/ros2-maker-guide.git ~/ros_ws
-cd ~/ros_ws
 source /opt/ros/jazzy/setup.bash
 sudo apt update
-sudo apt install python3-colcon-common-extensions python3-rosdep
+sudo apt install git python3-colcon-common-extensions python3-rosdep
+git clone https://github.com/freshmea/ros2-maker-guide.git ~/ros_ws
+cd ~/ros_ws
 ```
 
+### 2. 의존성 설치와 빌드 · 약 15분
+
 처음 rosdep을 사용하는 환경에서만 `sudo rosdep init`을 한 번 실행합니다.
-기본 실습 의존성은 다음처럼 설치하고 빌드합니다. 27장 시뮬레이터는 별도로 준비합니다.
+27장 Gazebo 시뮬레이터는 이 체험에 필요하지 않으며 별도로 준비합니다.
 
 ```bash
 rosdep update
 rosdep install --from-paths src/user_interface src/maker_basic src/gong_basic src/tf2_basic --ignore-src --rosdistro jazzy -r -y
 colcon build --symlink-install --packages-select user_interface maker_basic gong_basic tf2_basic
 source install/setup.bash
+```
+
+### 3. 실행하고 관찰하기 · 약 10분
+
+터미널 A에서 두 Node를 실행합니다.
+
+```bash
 ros2 launch maker_basic class_message.launch.py
 ```
 
-Publisher와 Subscriber가 실행되고 `Class message:` 메시지가 반복되면 첫 실행에 성공한 것입니다.
-다른 터미널에서도 다음 환경을 적용한 뒤 책의 명령을 실행합니다.
+`Published: Class message: 0`, `Received: Class message: 0`처럼 발행·수신 로그가
+반복되고 숫자가 증가하는지 확인하세요. 시작 시점에 따라 첫 숫자는 다를 수 있습니다.
+터미널 B를 새로 열어 메시지를 직접 읽습니다.
 
 ```bash
 source /opt/ros/jazzy/setup.bash
 source ~/ros_ws/install/setup.bash
-ros2 topic echo /message --once
+ros2 topic echo /message std_msgs/msg/String --once
 ```
 
-매번 source가 필요합니다. 필요하면 위 두 source 명령을 `~/.bashrc`에 **중복 없이** 추가합니다.
-종료는 실행 터미널에서 `Ctrl+C`를 누릅니다.
+`data: 'Class message: ...'`가 한 번 출력되면 통신을 확인한 것입니다.
+새 터미널에서는 두 `source` 명령을 매번 적용합니다. 종료는 터미널 A에서 `Ctrl+C`입니다.
 
-이미 `~/ros_ws`가 있다면 다른 이름으로 clone하고 기존 패키지와 비교하세요.
-같은 이름의 패키지를 중복 배치하거나 기존 실습 파일을 덮어쓰지 마세요.
-책에서 직접 작성하는 과정과 완성 코드를 실행하는 과정은 별도 작업 공간에서 진행하면 편리합니다.
+실행이 막히면 `Package not found`는 빌드와 `source`를, 메시지가 없으면 터미널 A의
+실행 상태와 양쪽 터미널의 `ROS_DOMAIN_ID` 일치 여부를 확인하세요.
+[검증 결과와 실행 환경의 한계](docs/validation.md)도 함께 확인할 수 있습니다.
+
+<a id="demo"></a>
+
+## 직접 실행하는 데모
+
+| 체험 | 확인할 결과 | 코드와 안내 |
+|---|---|---|
+| 두 Node의 메시지 통신 | 1초마다 발행·수신 로그와 증가하는 숫자 | [Publisher](src/maker_basic/maker_basic/class_message_pub.py) · [Subscriber](src/maker_basic/maker_basic/class_message_sub.py) |
+| 움직이는 로봇 관절 | `/joint_states` 변화와 RViz2 팔 회전 | [24~26장 실행 안내](docs/chapters.md#대표-실행) |
+| 센서로 벽 따라가기 | Gazebo에서 LaserScan을 읽고 주행 명령 발행 | [27장 설치와 실습](src/wall_follow_lab/README.md) |
+
+RViz2와 Gazebo 데모는 별도의 GUI·시뮬레이터 준비가 필요합니다.
+현재 연결된 예제 동영상은 없습니다. 실행 절차와 관찰할 결과는 위 링크에서 확인하세요.
+
+## 체험 다음에는
+
+책은 작은 Python Node를 직접 만드는 과정에서 출발해 통신 방식의 선택,
+좌표 변환, 로봇 모델 구성, 센서 기반 주행으로 이어집니다.
+명령을 실행한 뒤 무엇을 관찰해야 하는지, 실패했을 때 어디부터 확인하는지 함께 다룹니다.
+
+**[전체 27장 목차 보기](BOOK.md#목차)** · **[전자책·종이책 안내](BOOK.md#purchase)**
+
+동료나 스터디에 소개할 때는 이 저장소 또는 무료 PDF 링크를 공유해 주세요.
+다시 실습할 때 찾기 쉽도록 저장소에 Star를 남겨도 좋습니다.
+[블로그·SNS·스터디용 소개 문구](docs/share.md)도 준비되어 있습니다.
 
 ## 제공 범위
 
@@ -66,11 +133,12 @@ ros2 topic echo /message --once
 
 ## 공개 범위와 이용
 
-실습 코드, 설치·실행 안내, 책 소개와 목차만 제공합니다.
-책 본문, 표지·삽화, PDF·EPUB, 집필 도구, 개발 이력, 실물 매니퓰레이터·카메라·AI 모델은 포함하지 않습니다.
+실습 코드, 설치·실행 안내, 책 소개와 목차, **1~3장 무료 SAMPLE PDF**를 제공합니다.
+전체 도서 PDF·EPUB, 4장 이후 본문, 원고·삽화 원본, 집필 도구,
+비공개 개발 이력, 실물 매니퓰레이터·카메라·AI 모델은 포함하지 않습니다.
 이 저장소는 독립된 Git 이력으로 관리합니다.
 코드는 기존 Apache License 2.0을 유지합니다. [LICENSE](LICENSE)를 확인하세요.
-이 코드의 라이선스가 별도로 출판되는 책 본문·이미지의 이용 허락을 의미하지는 않습니다.
+샘플 PDF의 본문·이미지는 코드 라이선스에 포함되지 않습니다. [샘플 이용 안내](samples/README.md)를 확인하세요.
 
 오류 제보는 [Issues](https://github.com/freshmea/ros2-maker-guide/issues)에 장 번호,
 실행 명령, ROS2 버전, 오류 로그를 남겨 주세요. 비밀번호나 개인 정보는 제거해 주세요.
