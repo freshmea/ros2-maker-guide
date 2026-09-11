@@ -7,7 +7,7 @@
 환경 설치에서 Python Node, 통신, 로봇 모델링, 시뮬레이션으로 이어지는 책의 체험판입니다.
 
 **[📖 1~3장 무료 SAMPLE PDF](samples/ros2-maker-guide-ch01-03-sample.pdf)** ·
-[🚀 30분 Quick Start](#quick-start) · [🤖 직접 실행하는 데모](#demo)
+[🚀 30분 Quick Start](#quick-start) · [🤖 직접 실행하는 데모](#demo) · [🎓 강의계획서](#syllabi)
 
 [📘 책 소개](BOOK.md) · [💻 Sample Code](docs/chapters.md) ·
 [📚 전체 목차](BOOK.md#목차) · [🛒 전자책 구매 안내](BOOK.md#ebook) · [📕 종이책 구매 안내](BOOK.md#print)
@@ -15,6 +15,23 @@
 > **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
 >
 > 최수길 지음 · 마담
+
+<a id="syllabi"></a>
+
+## 대학 강의·집중교육에 활용하세요
+
+『ROS2 입문』과 공개 실습 코드를 수업으로 연결하는 **강의계획서 2종**입니다.
+학습 목표, 회차별 실습과 완료 기준, 제출물, 평가 방법, 사전 준비를 담았습니다.
+Markdown은 수업에 맞춰 편집할 때, PDF는 배포·인쇄할 때 사용하세요.
+
+| 과정 | 운영과 특징 | Markdown | PDF |
+|---|---|---|---|
+| **15주 대학 강의** | 주 3시간·총 45시간. 기초부터 모델링·시뮬레이션까지, 중간 실기와 기말 프로젝트 포함 | [계획서 읽기](docs/syllabi/university-15-weeks.md) | [PDF 보기](docs/syllabi/university-15-weeks.pdf) |
+| **5일 집중과정** | 일 6시간·총 30시간. 사전 설치 후 핵심 실습과 팀 미니 프로젝트 중심 | [계획서 읽기](docs/syllabi/bootcamp-5-days.md) | [PDF 보기](docs/syllabi/bootcamp-5-days.pdf) |
+
+수업 시간과 평가 비중은 운영 제안이며 기관에 맞게 조정할 수 있습니다.
+집중과정의 사전 설치·예습은 수업 30시간에 포함하지 않습니다.
+PDF가 바로 열리지 않으면 [15주 PDF 다운로드](https://github.com/freshmea/ros2-maker-guide/raw/refs/heads/main/docs/syllabi/university-15-weeks.pdf) 또는 [5일 PDF 다운로드](https://github.com/freshmea/ros2-maker-guide/raw/refs/heads/main/docs/syllabi/bootcamp-5-days.pdf)를 이용하세요.
 
 ## 먼저 3장까지 읽어 보세요
 
