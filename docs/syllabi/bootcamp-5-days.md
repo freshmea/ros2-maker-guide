@@ -141,6 +141,10 @@ Gazebo 생성·Bridge 확인 1시간 / 벽 따라가기 관찰 1시간 / 합성 
 
 ## 제출과 문제 해결 원칙
 
+모든 수강생은 GitHub 계정을 준비하고, 자신의 GitHub 아이디를 강사가 지정한 수강생 목록에 등록합니다. Google Slides(구글 슬라이드), Google Classroom(구글 클래스룸), Padlet(패들렛) 중 강사가 지정한 도구에 개인 실습 저장소(repo) 링크를 공유합니다. 강사는 이 공유 목록을 통해 수강생별 저장소와 과제 제출 현황을 관리하고 피드백합니다.
+
+팀 활동이 있는 경우 개인 저장소와 별도로 팀 전용 GitHub 저장소(team repo)를 생성합니다. 팀원과 역할을 README에 기록하고, 팀 저장소 링크도 같은 공유 도구에 등록하여 강사가 팀별 진행 상황과 결과물을 확인할 수 있도록 합니다.
+
 매 실습은 수정한 코드 또는 Git diff, 실행 명령, 예상 결과와 실제 결과, 로그 또는 화면, 실패 원인과 수정 내용을 제출합니다. 재현 절차에는 패키지·실행 항목·파라미터를 적습니다. AI를 사용했다면 질문 요약, 채택한 코드와 직접 확인한 결과를 함께 기록합니다.
 
 `Package not found`는 빌드와 source, 통신 무응답은 Node·Topic·Type·ROS_DOMAIN_ID·QoS 순서로 확인합니다. RViz2 모델 누락은 Fixed Frame·Robot Description·TF·/joint_states를 확인합니다. Gazebo 센서 누락은 재생 상태·Bridge·/scan을 확인하고, 예상과 다르게 움직이면 Pause 후 원인을 찾습니다.
