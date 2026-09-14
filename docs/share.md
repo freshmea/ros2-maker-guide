@@ -1,14 +1,17 @@
-# 무료 샘플 소개 문구
+# 전자책·무료 샘플 소개 문구
 
 블로그, 커뮤니티, SNS, 스터디 공지에 사용할 수 있는 소개 문구입니다.
-구매 링크가 등록되기 전에는 아래 공식 저장소 링크를 사용하세요.
+전자책은 [부크크](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)에서 구매할 수 있으며, 무료 샘플과 실습 코드는 공식 저장소에서 제공합니다.
 
 ## 짧은 소개
 
 ROS2를 배우고 싶은데 Ubuntu·WSL2 설치부터 막히셨나요?
-『ROS2 입문』 1~3장을 무료 컬러 SAMPLE PDF로 공개했습니다.
+『ROS2 입문』 전자책이 부크크에 입점했습니다.
+1~3장은 무료 컬러 SAMPLE PDF로 먼저 읽어 볼 수 있습니다.
 Ubuntu 24.04와 ROS2 Jazzy 환경 준비부터 첫 통신 확인까지,
 본문 57쪽을 읽고 GitHub 예제 코드를 직접 실행해 보세요.
+
+전자책 구매: https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1
 
 무료 샘플과 실습 코드: https://github.com/freshmea/ros2-maker-guide
 
@@ -19,7 +22,9 @@ Ubuntu 24.04와 ROS2 Jazzy 환경 준비부터 첫 통신 확인까지,
 ### ROS2 입문, 설치부터 첫 통신까지 1~3장 무료 공개
 
 『ROS2 입문 — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드』의
-첫 세 장을 무료로 읽을 수 있습니다.
+전자책을 부크크에서 구매할 수 있으며, 첫 세 장은 무료로 읽을 수 있습니다.
+
+[부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)
 
 1장은 ROS2로 만들 수 있는 것과 Node·통신의 역할을 소개합니다.
 2장은 Windows·WSL2·Ubuntu의 관계와 작업 환경을 정리합니다.

@@ -35,7 +35,11 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 전자책
 
-구매 링크는 아직 등록되지 않았습니다. 등록 전에는 [무료 샘플](samples/ros2-maker-guide-ch01-03-sample.pdf)을 읽어 보세요.
+『ROS2 입문』 전자책이 부크크에 입점했습니다.
+
+**[부크크에서 전자책 구매하기](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)**
+
+구매 전 [1~3장 무료 샘플](samples/ros2-maker-guide-ch01-03-sample.pdf)로 설명과 실습 흐름을 확인하세요.
 
 <a id="print"></a>
 
