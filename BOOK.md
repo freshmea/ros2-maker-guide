@@ -35,9 +35,9 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 전자책
 
-『ROS2 입문』 전자책이 부크크에 입점했습니다.
+『ROS2 입문』 전자책을 부크크와 YES24에서 구매할 수 있습니다.
 
-**[부크크에서 전자책 구매하기](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)**
+**[부크크에서 전자책 구매하기](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)** · **[YES24에서 전자책 구매하기](https://www.yes24.com/product/goods/196563555)**
 
 구매 전 [1~3장 무료 샘플](samples/ros2-maker-guide-ch01-03-sample.pdf)로 설명과 실습 흐름을 확인하세요.
 
@@ -45,7 +45,9 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 종이책
 
-구매 링크는 아직 등록되지 않았습니다. 등록 전에는 아래 전체 목차에서 학습 범위를 확인하세요.
+『ROS2 입문』 종이책이 부크크에 출간되었습니다.
+
+**[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)**
 
 ## 목차
 

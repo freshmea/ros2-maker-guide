@@ -10,13 +10,15 @@
 [🚀 30분 Quick Start](#quick-start) · [🤖 직접 실행하는 데모](#demo) · [🎓 강의계획서](#syllabi)
 
 [📘 책 소개](BOOK.md) · [💻 Sample Code](docs/chapters.md) ·
-[📚 전체 목차](BOOK.md#목차) · [🛒 부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [📕 종이책 구매 안내](BOOK.md#print)
+[📚 전체 목차](BOOK.md#목차) · [부크크 종이책 구매](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [YES24 전자책 구매](https://www.yes24.com/product/goods/196563555)
 
 > **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
 >
 > 최수길 지음 · 마담
 >
-> **전자책 부크크 입점** · [부크크에서 구매하기](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)
+> **종이책 부크크 출간 · 전자책 부크크·YES24 판매**
+>
+> [부크크 종이책 구매](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [YES24 전자책 구매](https://www.yes24.com/product/goods/196563555)
 
 <a id="syllabi"></a>
 
