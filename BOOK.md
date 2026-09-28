@@ -45,9 +45,9 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 종이책
 
-『ROS2 입문』 종이책이 부크크에 출간되었습니다.
+『ROS2 입문』 종이책을 부크크와 영풍문고에서 구매할 수 있습니다.
 
-**[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)**
+**[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)** · **[영풍문고에서 종이책 구매하기](https://www.ypbooks.co.kr/books/202609224911695468)**
 
 ## 목차
 
