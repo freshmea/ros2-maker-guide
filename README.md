@@ -16,6 +16,8 @@
 
 [북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
 
+교보문고 입점 승인 · 상품 페이지 확인 중. [교보문고 ISBN 검색](https://search.kyobobook.co.kr/search?keyword=9791122134704)에서 등록 여부를 확인할 수 있습니다.
+
 > **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
 >
 > 최수길 지음 · 마담

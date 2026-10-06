@@ -34,6 +34,8 @@ PDF 책갈피에서 각 장으로 이동할 수 있습니다. 샘플에는 별�
 
 [북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
 
+교보문고 입점 승인 · 상품 페이지 확인 중. [교보문고 ISBN 검색](https://search.kyobobook.co.kr/search?keyword=9791122134704)에서 등록 여부를 확인할 수 있습니다.
+
 ## 이용 안내
 
 Copyright © 2026 choi su gil. 샘플은 무료 열람과 개인 학습을 위해 공개합니다.
