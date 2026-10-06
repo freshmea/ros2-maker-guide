@@ -45,9 +45,11 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 종이책
 
-『ROS2 입문』 종이책을 부크크·영풍문고·YES24에서 구매할 수 있습니다.
+『ROS2 입문』 종이책을 부크크·영풍문고·YES24·알라딘에서 구매할 수 있습니다.
 
-**[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)** · **[영풍문고에서 종이책 구매하기](https://www.ypbooks.co.kr/books/202609224911695468)** · **[YES24에서 종이책 구매하기](https://www.yes24.com/product/goods/196822175)**
+**[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)** · **[영풍문고에서 종이책 구매하기](https://www.ypbooks.co.kr/books/202609224911695468)** · **[YES24에서 종이책 구매하기](https://www.yes24.com/product/goods/196822175)** · **[알라딘 종이책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171)**
+
+알라딘·북센 판매 신청 처리 완료: 2026-10-02 부크크 통지 기준. 알라딘 종이책은 구매 링크에서 확인할 수 있습니다.
 
 ## 목차
 

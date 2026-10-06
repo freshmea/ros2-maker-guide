@@ -1,12 +1,14 @@
 # 종이책·전자책·무료 샘플 소개 문구
 
 블로그, 커뮤니티, SNS, 스터디 공지에 사용할 수 있는 소개 문구입니다.
-종이책은 [부크크](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)·[영풍문고](https://www.ypbooks.co.kr/books/202609224911695468)·[YES24](https://www.yes24.com/product/goods/196822175), 전자책은 [부크크](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)와 [YES24](https://www.yes24.com/product/goods/196563555)에서 구매할 수 있습니다. 무료 샘플과 실습 코드는 공식 저장소에서 제공합니다.
+종이책은 [부크크](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)·[영풍문고](https://www.ypbooks.co.kr/books/202609224911695468)·[YES24](https://www.yes24.com/product/goods/196822175)·[알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171), 전자책은 [부크크](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)와 [YES24](https://www.yes24.com/product/goods/196563555)에서 구매할 수 있습니다. 무료 샘플과 실습 코드는 공식 저장소에서 제공합니다.
+
+알라딘·북센 판매 신청 처리 완료: 2026-10-02 부크크 통지 기준. 알라딘 종이책은 구매 링크에서 확인할 수 있습니다.
 
 ## 짧은 소개
 
 ROS2를 배우고 싶은데 Ubuntu·WSL2 설치부터 막히셨나요?
-『ROS2 입문』 종이책을 부크크·영풍문고·YES24에서 구매할 수 있습니다. 전자책은 부크크와 YES24에서 구매할 수 있습니다.
+『ROS2 입문』 종이책을 부크크·영풍문고·YES24·알라딘에서 구매할 수 있습니다. 전자책은 부크크와 YES24에서 구매할 수 있습니다.
 1~3장은 무료 컬러 SAMPLE PDF로 먼저 읽어 볼 수 있습니다.
 Ubuntu 24.04와 ROS2 Jazzy 환경 준비부터 첫 통신 확인까지,
 본문 57쪽을 읽고 GitHub 예제 코드를 직접 실행해 보세요.
@@ -16,6 +18,8 @@ Ubuntu 24.04와 ROS2 Jazzy 환경 준비부터 첫 통신 확인까지,
 영풍문고 종이책 구매: https://www.ypbooks.co.kr/books/202609224911695468
 
 YES24 종이책 구매: https://www.yes24.com/product/goods/196822175
+
+알라딘 종이책 구매: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171
 
 부크크 전자책 구매: https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1
 
@@ -30,9 +34,9 @@ YES24 전자책 구매: https://www.yes24.com/product/goods/196563555
 ### ROS2 입문, 설치부터 첫 통신까지 1~3장 무료 공개
 
 『ROS2 입문 — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드』의
-종이책은 부크크·영풍문고·YES24, 전자책은 부크크와 YES24에서 구매할 수 있으며, 첫 세 장은 무료로 읽을 수 있습니다.
+종이책은 부크크·영풍문고·YES24·알라딘, 전자책은 부크크와 YES24에서 구매할 수 있으며, 첫 세 장은 무료로 읽을 수 있습니다.
 
-[부크크 종이책 구매](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [영풍문고 종이책 구매](https://www.ypbooks.co.kr/books/202609224911695468) · [YES24 종이책 구매](https://www.yes24.com/product/goods/196822175) · [부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [YES24 전자책 구매](https://www.yes24.com/product/goods/196563555)
+[부크크 종이책 구매](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [영풍문고 종이책 구매](https://www.ypbooks.co.kr/books/202609224911695468) · [YES24 종이책 구매](https://www.yes24.com/product/goods/196822175) · [알라딘 종이책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171) · [부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [YES24 전자책 구매](https://www.yes24.com/product/goods/196563555)
 
 1장은 ROS2로 만들 수 있는 것과 Node·통신의 역할을 소개합니다.
 2장은 Windows·WSL2·Ubuntu의 관계와 작업 환경을 정리합니다.
