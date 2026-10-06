@@ -14,6 +14,8 @@
 
 알라딘·북센 판매 신청 처리 완료: 2026-10-02 부크크 통지 기준. 알라딘 종이책은 구매 링크에서 확인할 수 있습니다.
 
+[북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
+
 > **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
 >
 > 최수길 지음 · 마담

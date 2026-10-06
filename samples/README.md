@@ -32,6 +32,8 @@ PDF 책갈피에서 각 장으로 이동할 수 있습니다. 샘플에는 별�
 3. [30분 Quick Start](../README.md#quick-start)에서 저장소의 Python 예제를 실행합니다.
 4. [전체 목차](../BOOK.md#목차)에서 다음 학습 내용을 확인하고, [부크크 종이책](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [영풍문고 종이책](https://www.ypbooks.co.kr/books/202609224911695468) · [YES24 종이책](https://www.yes24.com/product/goods/196822175) · [알라딘 종이책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171), [부크크 전자책](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1), [YES24 전자책](https://www.yes24.com/product/goods/196563555)을 구매할 수 있습니다.
 
+[북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
+
 ## 이용 안내
 
 Copyright © 2026 choi su gil. 샘플은 무료 열람과 개인 학습을 위해 공개합니다.
