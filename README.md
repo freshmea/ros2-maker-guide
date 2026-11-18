@@ -16,13 +16,13 @@
 
 [북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
 
-교보문고 입점 승인 · 상품 페이지 확인 중. [교보문고 ISBN 검색](https://search.kyobobook.co.kr/search?keyword=9791122134704)에서 등록 여부를 확인할 수 있습니다.
+[교보문고 종이책 구매](https://product.kyobobook.co.kr/detail/S000221812217) · [알라딘 전자책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=405097169)
 
 > **ROS2 입문** — Ubuntu 24.04·Jazzy·Gazebo Harmonic과 AI로 시작하는 로봇 메이커 가이드
 >
 > 최수길 지음 · 마담
 >
-> **종이책 부크크·영풍문고·YES24·알라딘 판매 · 전자책 부크크·YES24 판매**
+> **종이책 부크크·영풍문고·YES24·알라딘·교보문고 판매 · 전자책 부크크·YES24·알라딘 판매**
 >
 > [부크크 종이책 구매](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7) · [영풍문고 종이책 구매](https://www.ypbooks.co.kr/books/202609224911695468) · [YES24 종이책 구매](https://www.yes24.com/product/goods/196822175) · [알라딘 종이책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171) · [부크크 전자책 구매](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1) · [YES24 전자책 구매](https://www.yes24.com/product/goods/196563555)
 

@@ -35,7 +35,7 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 전자책
 
-『ROS2 입문』 전자책을 부크크와 YES24에서 구매할 수 있습니다.
+『ROS2 입문』 전자책을 부크크·YES24·알라딘에서 구매할 수 있습니다.
 
 **[부크크에서 전자책 구매하기](https://bookk.co.kr/bookStore/6aa76a46dc64fe8c7e11a5e1)** · **[YES24에서 전자책 구매하기](https://www.yes24.com/product/goods/196563555)**
 
@@ -45,7 +45,7 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 ### 종이책
 
-『ROS2 입문』 종이책을 부크크·영풍문고·YES24·알라딘에서 구매할 수 있습니다.
+『ROS2 입문』 종이책을 부크크·영풍문고·YES24·알라딘·교보문고에서 구매할 수 있습니다.
 
 **[부크크에서 종이책 구매하기](https://bookk.co.kr/bookStore/6aab47b74c0f28c3d4b33da7)** · **[영풍문고에서 종이책 구매하기](https://www.ypbooks.co.kr/books/202609224911695468)** · **[YES24에서 종이책 구매하기](https://www.yes24.com/product/goods/196822175)** · **[알라딘 종이책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=403397171)**
 
@@ -53,7 +53,7 @@ AI에 질문할 때도 실행 환경과 관찰 결과를 근거로 답을 검토
 
 [북센 B2B 도서 정보](https://b2b.booxen.com/b2bmall/user/main/BookView.do?itemCd=11641651) — 서점·납품용 B2B몰의 등록 정보입니다.
 
-교보문고 입점 승인 · 상품 페이지 확인 중. [교보문고 ISBN 검색](https://search.kyobobook.co.kr/search?keyword=9791122134704)에서 등록 여부를 확인할 수 있습니다.
+[교보문고 종이책 구매](https://product.kyobobook.co.kr/detail/S000221812217) · [알라딘 전자책 구매](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=405097169)
 
 ## 목차
 
